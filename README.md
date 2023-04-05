@@ -5,9 +5,16 @@ To-Do List project is an application specially built to keep track of errands or
 
 
 ## installation & use
-npm install after downloading files.
+
+```sh
+npm install 
+```
 
 If you would like to download the repo and run the app locally on localhost 3000 (or any port you specify).
+
+```sh
+node app.js 
+```
 
 ## tools, libraries used & why I chose to use it
 The following table shows my rationale behind building this app, and why I chose to use the frameworks and tools that I did.
