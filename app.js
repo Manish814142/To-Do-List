@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb://0.0.0.0:27017/fruitsDB");
+mongoose.connect("mongodb://0.0.0.0:27017/todolistDB");
 
 const itemsSchema = {
   name: String
